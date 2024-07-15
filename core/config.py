@@ -3,10 +3,10 @@ from typing import Final
 
 host:           Final[str] = 'maouicvt.beget.tech'
 user:           Final[str] = 'maouicvt_school'
-password:       Final[str] = 'Dpjuy74m200324'
+password:       Final[str] = '###'
 db:             Final[str] = 'maouicvt_school'
 mailLogin:      Final[str] = 'maou.ichalkovskaya.school@yandex.ru'
-mailPassword:   Final[str] = 'dvchjetkezzjepce'
+mailPassword:   Final[str] = '###'
 
 def connect():
     connection = pymysql.connect(
